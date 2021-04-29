@@ -1,0 +1,440 @@
+2021-04-29 14:38:03.214 +12:00 [DBG] Hosting starting
+2021-04-29 14:38:03.235 +12:00 [DBG] Configuration loaded from context base directory: C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\
+2021-04-29 14:38:03.459 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.202\
+2021-04-29 14:38:03.461 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.201\
+2021-04-29 14:38:03.462 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\5.0.104\
+2021-04-29 14:38:03.462 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\3.1.408\
+2021-04-29 14:38:03.463 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\3.0.100\
+2021-04-29 14:38:03.464 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.815\
+2021-04-29 14:38:03.465 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.617\
+2021-04-29 14:38:03.466 +12:00 [DBG] Found candidate MSBuild instances: C:\Program Files\dotnet\sdk\2.1.523\
+2021-04-29 14:38:03.467 +12:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-04-29 14:38:03.474 +12:00 [DBG] Registering NuGet credential providers
+2021-04-29 14:38:03.535 +12:00 [INF] Registered 1 extensions:
+	Default extension
+2021-04-29 14:38:03.668 +12:00 [DBG] Found package sources: ["nuget.org [https://api.nuget.org/v3/index.json]","HSO Azure Devops [https://pkgs.dev.azure.com/henryscheinone/_packaging/Internal/nuget/v3/index.json]","Microsoft Visual Studio Offline Packages [C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\]","Local Wavelength [D:\\Dev\\ascend-wavelength-api\\ascend.api.web.app\\bin\\Release\\netstandard2.0\\publish\\]"]
+2021-04-29 14:38:03.732 +12:00 [DBG] Looking for template config files in extension Default extension
+2021-04-29 14:38:03.734 +12:00 [DBG] Found 2 template config files in extension Default extension
+2021-04-29 14:38:03.741 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep upgrade step
+2021-04-29 14:38:03.742 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Configuration.ConfigUpdaterStep upgrade step
+2021-04-29 14:38:03.744 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep upgrade step
+2021-04-29 14:38:03.745 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep upgrade step
+2021-04-29 14:38:03.746 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep upgrade step
+2021-04-29 14:38:03.747 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep upgrade step
+2021-04-29 14:38:03.748 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep upgrade step
+2021-04-29 14:38:03.749 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep upgrade step
+2021-04-29 14:38:03.750 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep upgrade step
+2021-04-29 14:38:03.751 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Solution.EntrypointSelectionStep upgrade step
+2021-04-29 14:38:03.752 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Source.SourceUpdaterStep upgrade step
+2021-04-29 14:38:03.753 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Templates.TemplateInserterStep upgrade step
+2021-04-29 14:38:03.754 +12:00 [DBG] Using Microsoft.DotNet.UpgradeAssistant.Steps.Razor.RazorUpdaterStep upgrade step
+2021-04-29 14:38:03.758 +12:00 [DBG] Finished ordering upgrade steps: Microsoft.DotNet.UpgradeAssistant.Steps.Solution.EntrypointSelectionStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep, Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep, Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep, Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep, Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Templates.TemplateInserterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Configuration.ConfigUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Razor.RazorUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Source.SourceUpdaterStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep, Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep
+2021-04-29 14:38:03.766 +12:00 [DBG] Generating context
+2021-04-29 14:38:03.791 +12:00 [DBG] Found Visual Studio 16.9.31129.286 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional
+2021-04-29 14:38:03.806 +12:00 [DBG] Initializing context
+2021-04-29 14:38:03.959 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:38:03.961 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:38:03.963 +12:00 [DBG] Unable to resolve assembly Microsoft.CodeAnalysis.VisualBasic.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2021-04-29 14:38:04.624 +12:00 [DBG] Assembly Microsoft.Build.resources, Version=15.1.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a loaded into context Default from C:\Program Files\dotnet\sdk\5.0.202\en\Microsoft.Build.resources.dll
+2021-04-29 14:38:04.950 +12:00 [DBG] Assembly Microsoft.Build.Tasks.Core.resources, Version=15.1.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a loaded into context Default from C:\Program Files\dotnet\sdk\5.0.202\en\Microsoft.Build.Tasks.Core.resources.dll
+2021-04-29 14:38:05.001 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:38:05.337 +12:00 [DBG] Done initializing context
+2021-04-29 14:38:05.467 +12:00 [INF] Initializing upgrade step Select an entrypoint
+2021-04-29 14:38:05.471 +12:00 [INF] Setting entrypoint to only project in solution: D:\Dev\reviewer-selector\ReviewerSelector.csproj
+2021-04-29 14:38:05.472 +12:00 [DBG] Step Select an entrypoint initialized
+2021-04-29 14:38:05.481 +12:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-29 14:38:05.493 +12:00 [VRB] Running readiness check CanLoadProjectFile
+2021-04-29 14:38:05.525 +12:00 [VRB] Running readiness check CentralPackageManagementCheck
+2021-04-29 14:38:05.526 +12:00 [VRB] Running readiness check TargetFrameworkCheck
+2021-04-29 14:38:05.561 +12:00 [VRB] Confirmed project D:\Dev\reviewer-selector\ReviewerSelector.csproj has a valid TFM (net47)
+2021-04-29 14:38:05.563 +12:00 [DBG] Setting only project in solution as the current project: D:\Dev\reviewer-selector\ReviewerSelector.csproj
+2021-04-29 14:38:05.564 +12:00 [VRB] Running readiness check CanLoadProjectFile
+2021-04-29 14:38:05.565 +12:00 [VRB] Running readiness check CentralPackageManagementCheck
+2021-04-29 14:38:05.567 +12:00 [VRB] Running readiness check TargetFrameworkCheck
+2021-04-29 14:38:05.567 +12:00 [VRB] Confirmed project D:\Dev\reviewer-selector\ReviewerSelector.csproj has a valid TFM (net47)
+2021-04-29 14:38:05.569 +12:00 [DBG] Step Select project to upgrade initialized
+2021-04-29 14:38:05.570 +12:00 [INF] Initializing upgrade step Back up project
+2021-04-29 14:38:05.573 +12:00 [DBG] Determining backup path
+2021-04-29 14:38:05.574 +12:00 [DBG] Using backup path D:\Dev\reviewer-selector.backup
+2021-04-29 14:38:05.575 +12:00 [DBG] Backup upgrade step initialized as incomplete; will backup to D:\Dev\reviewer-selector.backup
+2021-04-29 14:38:05.576 +12:00 [DBG] Step Back up project initialized
+2021-04-29 14:38:05.576 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep as the next step
+2021-04-29 14:38:14.738 +12:00 [INF] Applying upgrade step Back up project
+2021-04-29 14:38:18.477 +12:00 [DBG] Determining backup path
+2021-04-29 14:38:18.478 +12:00 [DBG] Using backup path D:\Dev\reviewer-selector.backup
+2021-04-29 14:38:18.480 +12:00 [INF] Backing up D:\Dev\reviewer-selector to D:\Dev\reviewer-selector.backup
+2021-04-29 14:38:18.487 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.gitignore to D:\Dev\reviewer-selector.backup\.gitignore
+2021-04-29 14:38:18.489 +12:00 [WRN] Could not copy file D:\Dev\reviewer-selector\log.txt due to 'The process cannot access the file 'D:\Dev\reviewer-selector\log.txt' because it is being used by another process.'
+2021-04-29 14:38:18.490 +12:00 [DBG] Copied D:\Dev\reviewer-selector\log.txt to D:\Dev\reviewer-selector.backup\log.txt
+2021-04-29 14:38:18.493 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages.config to D:\Dev\reviewer-selector.backup\packages.config
+2021-04-29 14:38:18.495 +12:00 [DBG] Copied D:\Dev\reviewer-selector\ReviewerSelector.cs to D:\Dev\reviewer-selector.backup\ReviewerSelector.cs
+2021-04-29 14:38:18.498 +12:00 [DBG] Copied D:\Dev\reviewer-selector\ReviewerSelector.csproj to D:\Dev\reviewer-selector.backup\ReviewerSelector.csproj
+2021-04-29 14:38:18.499 +12:00 [DBG] Copied D:\Dev\reviewer-selector\ReviewerSelector.sln to D:\Dev\reviewer-selector.backup\ReviewerSelector.sln
+2021-04-29 14:38:18.501 +12:00 [DBG] Copied D:\Dev\reviewer-selector\ReviewerSelectorTests.cs to D:\Dev\reviewer-selector.backup\ReviewerSelectorTests.cs
+2021-04-29 14:38:18.503 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\COMMIT_EDITMSG to D:\Dev\reviewer-selector.backup\.git\COMMIT_EDITMSG
+2021-04-29 14:38:18.505 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\config to D:\Dev\reviewer-selector.backup\.git\config
+2021-04-29 14:38:18.507 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\description to D:\Dev\reviewer-selector.backup\.git\description
+2021-04-29 14:38:18.510 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\HEAD to D:\Dev\reviewer-selector.backup\.git\HEAD
+2021-04-29 14:38:18.512 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\index to D:\Dev\reviewer-selector.backup\.git\index
+2021-04-29 14:38:18.515 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\applypatch-msg.sample to D:\Dev\reviewer-selector.backup\.git\hooks\applypatch-msg.sample
+2021-04-29 14:38:18.518 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\commit-msg.sample to D:\Dev\reviewer-selector.backup\.git\hooks\commit-msg.sample
+2021-04-29 14:38:18.520 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\fsmonitor-watchman.sample to D:\Dev\reviewer-selector.backup\.git\hooks\fsmonitor-watchman.sample
+2021-04-29 14:38:18.522 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\post-update.sample to D:\Dev\reviewer-selector.backup\.git\hooks\post-update.sample
+2021-04-29 14:38:18.524 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\pre-applypatch.sample to D:\Dev\reviewer-selector.backup\.git\hooks\pre-applypatch.sample
+2021-04-29 14:38:18.527 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\pre-commit.sample to D:\Dev\reviewer-selector.backup\.git\hooks\pre-commit.sample
+2021-04-29 14:38:18.529 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\pre-push.sample to D:\Dev\reviewer-selector.backup\.git\hooks\pre-push.sample
+2021-04-29 14:38:18.531 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\pre-rebase.sample to D:\Dev\reviewer-selector.backup\.git\hooks\pre-rebase.sample
+2021-04-29 14:38:18.533 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\pre-receive.sample to D:\Dev\reviewer-selector.backup\.git\hooks\pre-receive.sample
+2021-04-29 14:38:18.535 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\prepare-commit-msg.sample to D:\Dev\reviewer-selector.backup\.git\hooks\prepare-commit-msg.sample
+2021-04-29 14:38:18.537 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\hooks\update.sample to D:\Dev\reviewer-selector.backup\.git\hooks\update.sample
+2021-04-29 14:38:18.540 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\info\exclude to D:\Dev\reviewer-selector.backup\.git\info\exclude
+2021-04-29 14:38:18.542 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\logs\HEAD to D:\Dev\reviewer-selector.backup\.git\logs\HEAD
+2021-04-29 14:38:18.546 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\logs\refs\heads\master to D:\Dev\reviewer-selector.backup\.git\logs\refs\heads\master
+2021-04-29 14:38:18.548 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\logs\refs\remotes\origin\master to D:\Dev\reviewer-selector.backup\.git\logs\refs\remotes\origin\master
+2021-04-29 14:38:18.550 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\13\3239532ebd25ba1e73c263aea0e71e7fbc0cfe to D:\Dev\reviewer-selector.backup\.git\objects\13\3239532ebd25ba1e73c263aea0e71e7fbc0cfe
+2021-04-29 14:38:18.553 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\20\8d2cbb225bcf675c0d20e321a2eb3855f01306 to D:\Dev\reviewer-selector.backup\.git\objects\20\8d2cbb225bcf675c0d20e321a2eb3855f01306
+2021-04-29 14:38:18.556 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\23\325bfbc7a4d2de04852e050f3d9d09f29a7876 to D:\Dev\reviewer-selector.backup\.git\objects\23\325bfbc7a4d2de04852e050f3d9d09f29a7876
+2021-04-29 14:38:18.559 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\25\54d1bbc1576bd000d961f49a6af2d171ad8bb4 to D:\Dev\reviewer-selector.backup\.git\objects\25\54d1bbc1576bd000d961f49a6af2d171ad8bb4
+2021-04-29 14:38:18.562 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\30\7aba7250cd703293f259fa9ee18432f351f719 to D:\Dev\reviewer-selector.backup\.git\objects\30\7aba7250cd703293f259fa9ee18432f351f719
+2021-04-29 14:38:18.564 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\31\58d010b74d4fff555867ea046c7516ae107f89 to D:\Dev\reviewer-selector.backup\.git\objects\31\58d010b74d4fff555867ea046c7516ae107f89
+2021-04-29 14:38:18.566 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\34\1e1938ab73c99c9e6fc2724d1a6cfa8f5c141f to D:\Dev\reviewer-selector.backup\.git\objects\34\1e1938ab73c99c9e6fc2724d1a6cfa8f5c141f
+2021-04-29 14:38:18.569 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\36\e8665cf9fda48472de1377a8110cb322553ff0 to D:\Dev\reviewer-selector.backup\.git\objects\36\e8665cf9fda48472de1377a8110cb322553ff0
+2021-04-29 14:38:18.572 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\3c\f1d000832150ad00b17f28c2670e6910b92be7 to D:\Dev\reviewer-selector.backup\.git\objects\3c\f1d000832150ad00b17f28c2670e6910b92be7
+2021-04-29 14:38:18.574 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\62\487afc09b2bd76d39c395297a8bfdd818a6b53 to D:\Dev\reviewer-selector.backup\.git\objects\62\487afc09b2bd76d39c395297a8bfdd818a6b53
+2021-04-29 14:38:18.577 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\8b\bcc829cbcda818f20b612fe09f591c8677614d to D:\Dev\reviewer-selector.backup\.git\objects\8b\bcc829cbcda818f20b612fe09f591c8677614d
+2021-04-29 14:38:18.582 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\8c\ab948bcb0e6ea80b3bc9b6c2578a964cbcc989 to D:\Dev\reviewer-selector.backup\.git\objects\8c\ab948bcb0e6ea80b3bc9b6c2578a964cbcc989
+2021-04-29 14:38:18.584 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\objects\ba\55e9d0fb8538aa689d351b57d71f7b35165571 to D:\Dev\reviewer-selector.backup\.git\objects\ba\55e9d0fb8538aa689d351b57d71f7b35165571
+2021-04-29 14:38:18.588 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\refs\heads\master to D:\Dev\reviewer-selector.backup\.git\refs\heads\master
+2021-04-29 14:38:18.590 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.git\refs\remotes\origin\master to D:\Dev\reviewer-selector.backup\.git\refs\remotes\origin\master
+2021-04-29 14:38:18.594 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.vs\ReviewerSelector\v15\.suo to D:\Dev\reviewer-selector.backup\.vs\ReviewerSelector\v15\.suo
+2021-04-29 14:38:18.597 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.vs\ReviewerSelector\v15\Server\sqlite3\db.lock to D:\Dev\reviewer-selector.backup\.vs\ReviewerSelector\v15\Server\sqlite3\db.lock
+2021-04-29 14:38:18.598 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide to D:\Dev\reviewer-selector.backup\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide
+2021-04-29 14:38:18.600 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide-shm to D:\Dev\reviewer-selector.backup\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide-shm
+2021-04-29 14:38:18.607 +12:00 [DBG] Copied D:\Dev\reviewer-selector\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide-wal to D:\Dev\reviewer-selector.backup\.vs\ReviewerSelector\v15\Server\sqlite3\storage.ide-wal
+2021-04-29 14:38:18.612 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.Core.dll
+2021-04-29 14:38:18.619 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.626 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.Core.xml
+2021-04-29 14:38:18.629 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.dll
+2021-04-29 14:38:18.633 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.pdb
+2021-04-29 14:38:18.636 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\bin\Debug\FluentAssertions.xml
+2021-04-29 14:38:18.640 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\nunit.framework.dll to D:\Dev\reviewer-selector.backup\bin\Debug\nunit.framework.dll
+2021-04-29 14:38:18.654 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\bin\Debug\nunit.framework.pdb
+2021-04-29 14:38:18.662 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\nunit.framework.xml to D:\Dev\reviewer-selector.backup\bin\Debug\nunit.framework.xml
+2021-04-29 14:38:18.664 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\ReviewerSelector.dll to D:\Dev\reviewer-selector.backup\bin\Debug\ReviewerSelector.dll
+2021-04-29 14:38:18.665 +12:00 [DBG] Copied D:\Dev\reviewer-selector\bin\Debug\ReviewerSelector.pdb to D:\Dev\reviewer-selector.backup\bin\Debug\ReviewerSelector.pdb
+2021-04-29 14:38:18.668 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs to D:\Dev\reviewer-selector.backup\obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs
+2021-04-29 14:38:18.670 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache to D:\Dev\reviewer-selector.backup\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+2021-04-29 14:38:18.671 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.csproj.CopyComplete to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.csproj.CopyComplete
+2021-04-29 14:38:18.672 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.csproj.CoreCompileInputs.cache to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.csproj.CoreCompileInputs.cache
+2021-04-29 14:38:18.674 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.csproj.FileListAbsolute.txt to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.csproj.FileListAbsolute.txt
+2021-04-29 14:38:18.675 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.csprojAssemblyReference.cache to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.csprojAssemblyReference.cache
+2021-04-29 14:38:18.677 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.dll to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.dll
+2021-04-29 14:38:18.678 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\ReviewerSelector.pdb to D:\Dev\reviewer-selector.backup\obj\Debug\ReviewerSelector.pdb
+2021-04-29 14:38:18.681 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs to D:\Dev\reviewer-selector.backup\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2021-04-29 14:38:18.682 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs to D:\Dev\reviewer-selector.backup\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2021-04-29 14:38:18.684 +12:00 [DBG] Copied D:\Dev\reviewer-selector\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs to D:\Dev\reviewer-selector.backup\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2021-04-29 14:38:18.687 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\.signature.p7s to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\.signature.p7s
+2021-04-29 14:38:18.714 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\FluentAssertions.4.19.4.nupkg to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\FluentAssertions.4.19.4.nupkg
+2021-04-29 14:38:18.719 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.dll
+2021-04-29 14:38:18.727 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.733 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.Core.xml
+2021-04-29 14:38:18.736 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.dll
+2021-04-29 14:38:18.739 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.pdb
+2021-04-29 14:38:18.743 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net40\FluentAssertions.xml
+2021-04-29 14:38:18.747 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.dll
+2021-04-29 14:38:18.753 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.759 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.Core.xml
+2021-04-29 14:38:18.761 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.dll
+2021-04-29 14:38:18.765 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.pdb
+2021-04-29 14:38:18.768 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\net45\FluentAssertions.xml
+2021-04-29 14:38:18.772 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.dll
+2021-04-29 14:38:18.786 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.792 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.XML to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.Core.XML
+2021-04-29 14:38:18.794 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.dll
+2021-04-29 14:38:18.797 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.pdb
+2021-04-29 14:38:18.800 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\netstandard1.3\FluentAssertions.xml
+2021-04-29 14:38:18.805 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll
+2021-04-29 14:38:18.813 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.820 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml
+2021-04-29 14:38:18.823 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll
+2021-04-29 14:38:18.826 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb
+2021-04-29 14:38:18.829 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML
+2021-04-29 14:38:18.835 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.dll
+2021-04-29 14:38:18.843 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.850 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.Core.xml
+2021-04-29 14:38:18.852 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.dll
+2021-04-29 14:38:18.856 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.pdb
+2021-04-29 14:38:18.857 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.pri to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.pri
+2021-04-29 14:38:18.860 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\portable-win81+wpa81\FluentAssertions.xml
+2021-04-29 14:38:18.866 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.dll
+2021-04-29 14:38:18.873 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.878 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.Core.xml
+2021-04-29 14:38:18.881 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.dll
+2021-04-29 14:38:18.886 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.pdb
+2021-04-29 14:38:18.888 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\FluentAssertions.xml
+2021-04-29 14:38:18.893 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.CSharp.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.CSharp.dll
+2021-04-29 14:38:18.895 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.CSharp.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.CSharp.xml
+2021-04-29 14:38:18.898 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
+2021-04-29 14:38:18.902 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml
+2021-04-29 14:38:18.905 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\System.Xml.Linq.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\System.Xml.Linq.dll
+2021-04-29 14:38:18.907 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\System.Xml.Linq.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\System.Xml.Linq.xml
+2021-04-29 14:38:18.910 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\de\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\de\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.912 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\de\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\de\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.915 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\es\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\es\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.917 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\es\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\es\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.920 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\fr\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\fr\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.922 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\fr\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\fr\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.924 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\it\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\it\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.927 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\it\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\it\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.929 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ja\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ja\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.931 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ja\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ja\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.934 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ko\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ko\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.936 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ko\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ko\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.938 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ru\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ru\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.940 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\ru\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\ru\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.943 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.946 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.949 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll
+2021-04-29 14:38:18.951 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll
+2021-04-29 14:38:18.955 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.dll
+2021-04-29 14:38:18.966 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.972 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.XML to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.Core.XML
+2021-04-29 14:38:18.974 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.dll
+2021-04-29 14:38:18.977 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.pdb
+2021-04-29 14:38:18.980 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\uap10.0\FluentAssertions.xml
+2021-04-29 14:38:18.985 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.dll
+2021-04-29 14:38:18.991 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.pdb
+2021-04-29 14:38:18.999 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.Core.xml
+2021-04-29 14:38:19.001 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.dll
+2021-04-29 14:38:19.004 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.pdb
+2021-04-29 14:38:19.006 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.pri to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.pri
+2021-04-29 14:38:19.008 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\win81\FluentAssertions.xml
+2021-04-29 14:38:19.015 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.dll
+2021-04-29 14:38:19.022 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.pdb
+2021-04-29 14:38:19.028 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.Core.xml
+2021-04-29 14:38:19.030 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.dll
+2021-04-29 14:38:19.034 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.pdb
+2021-04-29 14:38:19.036 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wp8\FluentAssertions.xml
+2021-04-29 14:38:19.041 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.dll
+2021-04-29 14:38:19.049 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.pdb
+2021-04-29 14:38:19.055 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.Core.xml
+2021-04-29 14:38:19.058 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.dll to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.dll
+2021-04-29 14:38:19.061 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.pdb to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.pdb
+2021-04-29 14:38:19.063 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.pri to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.pri
+2021-04-29 14:38:19.066 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.xml to D:\Dev\reviewer-selector.backup\packages\FluentAssertions.4.19.4\lib\wpa81\FluentAssertions.xml
+2021-04-29 14:38:19.068 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\.signature.p7s to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\.signature.p7s
+2021-04-29 14:38:19.071 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\CHANGES.md to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\CHANGES.md
+2021-04-29 14:38:19.073 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\LICENSE.txt to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\LICENSE.txt
+2021-04-29 14:38:19.075 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\NOTICES.txt to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\NOTICES.txt
+2021-04-29 14:38:19.094 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\NUnit.3.12.0.nupkg to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\NUnit.3.12.0.nupkg
+2021-04-29 14:38:19.096 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\build\NUnit.props to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\build\NUnit.props
+2021-04-29 14:38:19.103 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net35\nunit.framework.dll to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net35\nunit.framework.dll
+2021-04-29 14:38:19.118 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net35\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net35\nunit.framework.pdb
+2021-04-29 14:38:19.125 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net35\nunit.framework.xml to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net35\nunit.framework.xml
+2021-04-29 14:38:19.130 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net40\nunit.framework.dll to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net40\nunit.framework.dll
+2021-04-29 14:38:19.143 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net40\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net40\nunit.framework.pdb
+2021-04-29 14:38:19.150 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net40\nunit.framework.xml to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net40\nunit.framework.xml
+2021-04-29 14:38:19.154 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll
+2021-04-29 14:38:19.167 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net45\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net45\nunit.framework.pdb
+2021-04-29 14:38:19.175 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\net45\nunit.framework.xml to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\net45\nunit.framework.xml
+2021-04-29 14:38:19.181 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.dll to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.dll
+2021-04-29 14:38:19.192 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.pdb
+2021-04-29 14:38:19.201 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.xml to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.xml
+2021-04-29 14:38:19.206 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.dll to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.dll
+2021-04-29 14:38:19.220 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.pdb to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.pdb
+2021-04-29 14:38:19.229 +12:00 [DBG] Copied D:\Dev\reviewer-selector\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.xml to D:\Dev\reviewer-selector.backup\packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.xml
+2021-04-29 14:38:19.232 +12:00 [DBG] Copied D:\Dev\reviewer-selector\Properties\AssemblyInfo.cs to D:\Dev\reviewer-selector.backup\Properties\AssemblyInfo.cs
+2021-04-29 14:38:19.238 +12:00 [INF] Project backed up to D:\Dev\reviewer-selector.backup
+2021-04-29 14:38:19.239 +12:00 [INF] Upgrade step Back up project applied successfully
+2021-04-29 14:38:27.054 +12:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-29 14:38:27.056 +12:00 [DBG] Project D:\Dev\reviewer-selector\ReviewerSelector.csproj not yet converted
+2021-04-29 14:38:27.058 +12:00 [DBG] Step Convert project file to SDK style initialized
+2021-04-29 14:38:27.058 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep as the next step
+2021-04-29 14:38:30.109 +12:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-29 14:38:30.112 +12:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-29 14:38:30.116 +12:00 [VRB] Starting process 'C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\tools\try-convert.exe --no-backup --force-web-conversion --keep-current-tfms -p "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:38:32.202 +12:00 [INF] [try-convert] This project has an unrecognized custom import which may need reviewed after conversion: NUnit.props
+2021-04-29 14:38:34.067 +12:00 [INF] [try-convert] Conversion complete!
+2021-04-29 14:38:34.377 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:38:34.389 +12:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-29 14:38:34.391 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:38:35.156 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:38:37.758 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\reviewer-selector\ReviewerSelector.csproj (in 2.47 sec).
+2021-04-29 14:38:38.088 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:38:38.100 +12:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-29 14:40:02.422 +12:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-29 14:40:02.426 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:40:03.173 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:40:03.318 +12:00 [DBG] [dotnet-restore]   All projects are up-to-date for restore.
+2021-04-29 14:40:03.489 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:03.502 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:40:03.584 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:40:03.617 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:40:03.631 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:40:03.653 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:40:03.655 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:40:03.656 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:40:03.657 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:40:03.660 +12:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-04-29 14:40:03.664 +12:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-04-29 14:40:03.666 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:40:03.676 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:40:03.686 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:40:03.693 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["net47"]
+2021-04-29 14:40:03.694 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:40:03.697 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:03.698 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["net47"]
+2021-04-29 14:40:03.700 +12:00 [DBG] NuGet package FluentAssertions, Version=4.19.4 loaded from C:\Users\ernest.tidalgo\.nuget\packages\FluentAssertions\4.19.4\FluentAssertions.4.19.4.nupkg
+2021-04-29 14:40:03.705 +12:00 [DBG] Found target frameworks for package FluentAssertions.4.19.4: [".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile32",".NETPortable,Version=v0.0,Profile=Profile328",".NETStandard,Version=v1.3","Silverlight,Version=v5.0","UAP,Version=v10.0","Windows,Version=v8.1","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1"]
+2021-04-29 14:40:03.708 +12:00 [DBG] Package FluentAssertions, Version=4.19.4 will work on ["net47"]
+2021-04-29 14:40:03.709 +12:00 [DBG] NuGet package NUnit, Version=3.12.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\NUnit\3.12.0\NUnit.3.12.0.nupkg
+2021-04-29 14:40:03.712 +12:00 [DBG] Found target frameworks for package NUnit.3.12.0: [".NETFramework,Version=v3.5",".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETStandard,Version=v1.4",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:03.714 +12:00 [DBG] Package NUnit, Version=3.12.0 will work on ["net47"]
+2021-04-29 14:40:03.716 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:40:03.751 +12:00 [DBG] [NuGet]   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json
+2021-04-29 14:40:04.710 +12:00 [DBG] [NuGet]   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json 956ms
+2021-04-29 14:40:04.757 +12:00 [DBG] [NuGet]   GET https://pkgs.dev.azure.com/henryscheinone/_packaging/4f9b54f0-45da-44bf-b9a7-77c3c0943714/nuget/v3/registrations2-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json
+2021-04-29 14:40:04.886 +12:00 [VRB] [NuGet] Using C:\Users\ernest.tidalgo\.nuget\plugins\netcore\CredentialProvider.Microsoft\CredentialProvider.Microsoft.dll as a credential provider plugin.
+2021-04-29 14:40:04.887 +12:00 [DBG] Using NuGet credential providers: SecurePluginCredentialProvider_C:\Users\ernest.tidalgo\.nuget\plugins\netcore\CredentialProvider.Microsoft\CredentialProvider.Microsoft.dll
+2021-04-29 14:40:05.882 +12:00 [DBG] [NuGet]   NotFound https://pkgs.dev.azure.com/henryscheinone/_packaging/4f9b54f0-45da-44bf-b9a7-77c3c0943714/nuget/v3/registrations2-semver2/microsoft.dotnet.upgradeassistant.extensions.default.analyzers/index.json 450ms
+2021-04-29 14:40:05.890 +12:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.222702) needs added
+2021-04-29 14:40:05.891 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:40:05.894 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:40:05.898 +12:00 [INF] References to be removed:
+System.Configuration
+2021-04-29 14:40:05.899 +12:00 [INF] Packages to be added:
+System.Configuration.ConfigurationManager, Version=5.0.0
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-04-29 14:40:05.901 +12:00 [DBG] Step Clean up NuGet package references initialized
+2021-04-29 14:40:05.902 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterPreTFMStep as the next step
+2021-04-29 14:40:09.943 +12:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-29 14:40:09.949 +12:00 [INF] Removing outdated assembly reference: System.Configuration
+2021-04-29 14:40:09.954 +12:00 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-04-29 14:40:09.955 +12:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-04-29 14:40:09.957 +12:00 [DBG] Saving changes to project file
+2021-04-29 14:40:10.097 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:10.109 +12:00 [DBG] Re-running analysis to check whether additional changes are needed
+2021-04-29 14:40:10.110 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:40:10.860 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:40:13.289 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\reviewer-selector\ReviewerSelector.csproj (in 2.29 sec).
+2021-04-29 14:40:13.681 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:13.702 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:40:13.790 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:40:13.800 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:40:13.802 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:40:13.803 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:40:13.805 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:40:13.806 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:40:13.807 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:40:13.808 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:40:13.809 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:40:13.812 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:40:13.818 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["net47"]
+2021-04-29 14:40:13.819 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:40:13.821 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:13.822 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["net47"]
+2021-04-29 14:40:13.824 +12:00 [DBG] NuGet package System.Configuration.ConfigurationManager, Version=5.0.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Configuration.ConfigurationManager\5.0.0\System.Configuration.ConfigurationManager.5.0.0.nupkg
+2021-04-29 14:40:13.826 +12:00 [DBG] Found target frameworks for package System.Configuration.ConfigurationManager.5.0.0: [".NETFramework,Version=v4.6.1",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0"]
+2021-04-29 14:40:13.830 +12:00 [DBG] Package System.Configuration.ConfigurationManager, Version=5.0.0 will work on ["net47"]
+2021-04-29 14:40:13.831 +12:00 [DBG] NuGet package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers\0.2.222702\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702.nupkg
+2021-04-29 14:40:13.833 +12:00 [DBG] Found target frameworks for package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702: ["Any,Version=v0.0"]
+2021-04-29 14:40:13.835 +12:00 [DBG] Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 will work on ["net47"]
+2021-04-29 14:40:13.836 +12:00 [DBG] NuGet package FluentAssertions, Version=4.19.4 loaded from C:\Users\ernest.tidalgo\.nuget\packages\FluentAssertions\4.19.4\FluentAssertions.4.19.4.nupkg
+2021-04-29 14:40:13.841 +12:00 [DBG] Found target frameworks for package FluentAssertions.4.19.4: [".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile32",".NETPortable,Version=v0.0,Profile=Profile328",".NETStandard,Version=v1.3","Silverlight,Version=v5.0","UAP,Version=v10.0","Windows,Version=v8.1","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1"]
+2021-04-29 14:40:13.845 +12:00 [DBG] Package FluentAssertions, Version=4.19.4 will work on ["net47"]
+2021-04-29 14:40:13.847 +12:00 [DBG] NuGet package NUnit, Version=3.12.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\NUnit\3.12.0\NUnit.3.12.0.nupkg
+2021-04-29 14:40:13.849 +12:00 [DBG] Found target frameworks for package NUnit.3.12.0: [".NETFramework,Version=v3.5",".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETStandard,Version=v1.4",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:13.852 +12:00 [DBG] Package NUnit, Version=3.12.0 will work on ["net47"]
+2021-04-29 14:40:13.853 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:40:13.854 +12:00 [DBG] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers) already exists
+2021-04-29 14:40:13.855 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:40:13.856 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:40:13.857 +12:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-29 14:40:25.269 +12:00 [INF] Initializing upgrade step Update TFM
+2021-04-29 14:40:25.275 +12:00 [INF] TFM needs updated to netstandard2.0
+2021-04-29 14:40:25.277 +12:00 [DBG] Step Update TFM initialized
+2021-04-29 14:40:25.278 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep as the next step
+2021-04-29 14:40:29.212 +12:00 [INF] Applying upgrade step Update TFM
+2021-04-29 14:40:29.216 +12:00 [DBG] Saving changes to project file
+2021-04-29 14:40:29.330 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:29.334 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:40:30.049 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:40:31.748 +12:00 [DBG] [dotnet-restore]   Restored D:\Dev\reviewer-selector\ReviewerSelector.csproj (in 1.56 sec).
+2021-04-29 14:40:33.475 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:33.512 +12:00 [INF] Updated TFM to netstandard2.0
+2021-04-29 14:40:33.513 +12:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-29 14:40:38.661 +12:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-29 14:40:38.662 +12:00 [VRB] Starting process 'dotnet restore "D:\Dev\reviewer-selector\ReviewerSelector.csproj"'
+2021-04-29 14:40:39.396 +12:00 [DBG] [dotnet-restore]   Determining projects to restore...
+2021-04-29 14:40:39.553 +12:00 [DBG] [dotnet-restore]   All projects are up-to-date for restore.
+2021-04-29 14:40:39.754 +12:00 [DBG] ["Failure"] Problem loading file in MSBuild workspace Msbuild failed when processing the file 'D:\Dev\reviewer-selector\ReviewerSelector.csproj' with message: C:\Program Files\dotnet\sdk\5.0.202\Microsoft.CSharp.CurrentVersion.targets: (135, 9): Could not find rule set file "ManagedMinimumRules.ruleset".
+2021-04-29 14:40:39.789 +12:00 [DBG] Analyzing packages with Duplicate reference analyzer
+2021-04-29 14:40:39.884 +12:00 [DBG] Analyzing packages with Transitive reference analyzer
+2021-04-29 14:40:39.896 +12:00 [DBG] Analyzing packages with Package map reference analyzer
+2021-04-29 14:40:39.898 +12:00 [DBG] Looking for package maps in Default extension
+2021-04-29 14:40:39.899 +12:00 [DBG] Loaded 4 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AspNetPackageMap.json
+2021-04-29 14:40:39.901 +12:00 [DBG] Loaded 3 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\AssemblyPackageMaps.json
+2021-04-29 14:40:39.902 +12:00 [DBG] Loaded 7 package maps from C:\Users\ernest.tidalgo\.dotnet\tools\.store\upgrade-assistant\0.2.222702\upgrade-assistant\0.2.222702\tools\net5.0\any\PackageMaps\DefaultPackageMap.json
+2021-04-29 14:40:39.903 +12:00 [DBG] Finished loading package maps from extension Default extension
+2021-04-29 14:40:39.904 +12:00 [DBG] Analyzing packages with Target compatibility reference analyzer
+2021-04-29 14:40:39.905 +12:00 [DBG] NuGet package Microsoft.CSharp, Version=4.7.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.CSharp\4.7.0\Microsoft.CSharp.4.7.0.nupkg
+2021-04-29 14:40:39.907 +12:00 [DBG] Found target frameworks for package Microsoft.CSharp.4.7.0: [".NETCore,Version=v5.0",".NETCoreApp,Version=v2.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile259",".NETStandard,Version=v1.3",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","UAP,Version=v10.0.16299","Windows,Version=v8.0","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0",".NETStandard,Version=v1.0"]
+2021-04-29 14:40:39.913 +12:00 [DBG] Package Microsoft.CSharp, Version=4.7.0 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.915 +12:00 [DBG] NuGet package System.Data.DataSetExtensions, Version=4.5.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Data.DataSetExtensions\4.5.0\System.Data.DataSetExtensions.4.5.0.nupkg
+2021-04-29 14:40:39.916 +12:00 [DBG] Found target frameworks for package System.Data.DataSetExtensions.4.5.0: [".NETFramework,Version=v4.5",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:39.919 +12:00 [DBG] Package System.Data.DataSetExtensions, Version=4.5.0 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.920 +12:00 [DBG] NuGet package System.Configuration.ConfigurationManager, Version=5.0.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\System.Configuration.ConfigurationManager\5.0.0\System.Configuration.ConfigurationManager.5.0.0.nupkg
+2021-04-29 14:40:39.922 +12:00 [DBG] Found target frameworks for package System.Configuration.ConfigurationManager.5.0.0: [".NETFramework,Version=v4.6.1",".NETStandard,Version=v2.0","MonoAndroid,Version=v1.0","MonoTouch,Version=v1.0","Xamarin.iOS,Version=v1.0","Xamarin.Mac,Version=v2.0","Xamarin.TVOS,Version=v1.0","Xamarin.WatchOS,Version=v1.0"]
+2021-04-29 14:40:39.925 +12:00 [DBG] Package System.Configuration.ConfigurationManager, Version=5.0.0 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.926 +12:00 [DBG] NuGet package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 loaded from C:\Users\ernest.tidalgo\.nuget\packages\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers\0.2.222702\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702.nupkg
+2021-04-29 14:40:39.928 +12:00 [DBG] Found target frameworks for package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.0.2.222702: ["Any,Version=v0.0"]
+2021-04-29 14:40:39.929 +12:00 [DBG] Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.931 +12:00 [DBG] NuGet package FluentAssertions, Version=4.19.4 loaded from C:\Users\ernest.tidalgo\.nuget\packages\FluentAssertions\4.19.4\FluentAssertions.4.19.4.nupkg
+2021-04-29 14:40:39.936 +12:00 [DBG] Found target frameworks for package FluentAssertions.4.19.4: [".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETPortable,Version=v0.0,Profile=Profile32",".NETPortable,Version=v0.0,Profile=Profile328",".NETStandard,Version=v1.3","Silverlight,Version=v5.0","UAP,Version=v10.0","Windows,Version=v8.1","WindowsPhone,Version=v8.0","WindowsPhoneApp,Version=v8.1"]
+2021-04-29 14:40:39.941 +12:00 [DBG] Package FluentAssertions, Version=4.19.4 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.942 +12:00 [DBG] NuGet package NUnit, Version=3.12.0 loaded from C:\Users\ernest.tidalgo\.nuget\packages\NUnit\3.12.0\NUnit.3.12.0.nupkg
+2021-04-29 14:40:39.943 +12:00 [DBG] Found target frameworks for package NUnit.3.12.0: [".NETFramework,Version=v3.5",".NETFramework,Version=v4.0",".NETFramework,Version=v4.5",".NETStandard,Version=v1.4",".NETStandard,Version=v2.0"]
+2021-04-29 14:40:39.946 +12:00 [DBG] Package NUnit, Version=3.12.0 will work on ["netstandard2.0"]
+2021-04-29 14:40:39.947 +12:00 [DBG] Analyzing packages with Upgrade assistant reference analyzer
+2021-04-29 14:40:39.949 +12:00 [DBG] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers) already exists
+2021-04-29 14:40:39.949 +12:00 [DBG] Analyzing packages with Windows Compatibility Pack Analyzer
+2021-04-29 14:40:39.950 +12:00 [DBG] Analyzing packages with Newtonsoft.Json reference analyzer
+2021-04-29 14:40:39.952 +12:00 [INF] No package updates needed
+2021-04-29 14:40:39.953 +12:00 [DBG] Step Update NuGet Packages initialized
+2021-04-29 14:40:39.953 +12:00 [INF] Initializing upgrade step Add template files
+2021-04-29 14:40:39.984 +12:00 [DBG] Skipping inapplicable template config file Templates\CSharpWebAppTemplates\WebAppTemplates.json
+2021-04-29 14:40:39.986 +12:00 [DBG] Skipping inapplicable template config file Templates\VisualBasicWebAppTemplates\WebAppTemplates.json
+2021-04-29 14:40:39.989 +12:00 [INF] 0 expected template items needed
+2021-04-29 14:40:39.990 +12:00 [DBG] Step Add template files initialized
+2021-04-29 14:40:40.028 +12:00 [INF] Initializing upgrade step Update source code
+2021-04-29 14:40:40.032 +12:00 [DBG] Opening project D:\Dev\reviewer-selector\ReviewerSelector.csproj
+2021-04-29 14:40:40.034 +12:00 [VRB] Running upgrade analyzers on ReviewerSelector
+2021-04-29 14:40:41.295 +12:00 [DBG] Identified 0 fixable diagnostics in project ReviewerSelector
+2021-04-29 14:40:41.297 +12:00 [DBG] Identified 0 fixable UA0001 diagnostics
+2021-04-29 14:40:41.298 +12:00 [DBG] Identified 0 fixable UA0002 diagnostics
+2021-04-29 14:40:41.299 +12:00 [DBG] Identified 0 fixable UA0003 diagnostics
+2021-04-29 14:40:41.300 +12:00 [DBG] Identified 0 fixable UA0004 diagnostics
+2021-04-29 14:40:41.301 +12:00 [DBG] Identified 0 fixable UA0005 diagnostics
+2021-04-29 14:40:41.302 +12:00 [DBG] Identified 0 fixable UA0006 diagnostics
+2021-04-29 14:40:41.303 +12:00 [DBG] Identified 0 fixable UA0007 diagnostics
+2021-04-29 14:40:41.305 +12:00 [DBG] Identified 0 fixable UA0008 diagnostics
+2021-04-29 14:40:41.306 +12:00 [DBG] Identified 0 fixable UA0009 diagnostics
+2021-04-29 14:40:41.307 +12:00 [DBG] Identified 0 fixable UA0010 diagnostics
+2021-04-29 14:40:41.308 +12:00 [DBG] Identified 0 fixable UA0012 diagnostics
+2021-04-29 14:40:41.309 +12:00 [DBG] Step Update source code initialized
+2021-04-29 14:40:41.324 +12:00 [INF] Initializing upgrade step Move to next project
+2021-04-29 14:40:41.326 +12:00 [DBG] Step Move to next project initialized
+2021-04-29 14:40:41.327 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Solution.NextProjectStep as the next step
+2021-04-29 14:40:52.177 +12:00 [INF] Applying upgrade step Move to next project
+2021-04-29 14:40:52.179 +12:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-29 14:40:54.098 +12:00 [INF] Initializing upgrade step Finalize upgrade
+2021-04-29 14:40:54.099 +12:00 [DBG] Step Finalize upgrade initialized
+2021-04-29 14:40:54.101 +12:00 [DBG] Identified upgrade step Microsoft.DotNet.UpgradeAssistant.Steps.Solution.FinalizeSolutionStep as the next step
+2021-04-29 14:40:58.926 +12:00 [INF] Applying upgrade step Finalize upgrade
+2021-04-29 14:40:58.927 +12:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-04-29 14:41:00.878 +12:00 [DBG] No applicable upgrade steps found
+2021-04-29 14:41:00.879 +12:00 [INF] Upgrade has completed. Please review any changes.
+2021-04-29 14:41:00.880 +12:00 [INF] Saving upgrade progress file at D:\Dev\reviewer-selector\.upgrade-assistant
+2021-04-29 14:41:00.903 +12:00 [DBG] Hosting started
+2021-04-29 14:41:00.907 +12:00 [DBG] Hosting stopping
+2021-04-29 14:41:00.909 +12:00 [DBG] Hosting stopped
